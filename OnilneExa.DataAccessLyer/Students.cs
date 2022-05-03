@@ -15,7 +15,7 @@ namespace OnilneExa.DataAccessLyer
         public string contact { get; set; }
         public string CVFileName { get; set; }
         public string PicturefileName { get; set; }
-        public int GroupsId { get; set; }
+        public int? GroupsId { get; set; }
         public Groups Groups { get; set; }
 
         public ICollection<ExamResults> ExamResults { get; set; } =new HashSet<ExamResults>();

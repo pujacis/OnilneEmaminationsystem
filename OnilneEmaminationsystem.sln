@@ -5,6 +5,12 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnilneExa.DataAccessLyer", "OnilneExa.DataAccessLyer\OnilneExa.DataAccessLyer.csproj", "{22BAF995-E4AB-4329-8122-B69A013F007E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.viewModel", "OnlineExam.viewModel\OnlineExam.viewModel.csproj", "{96C9171A-43CD-4F3D-82AD-7EC636E46B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.BLL", "OnlineExam.BLL\OnlineExam.BLL.csproj", "{EA1CC277-349B-43EE-97F3-053B232250A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExamination.web", "OnlineExamination.web\OnlineExamination.web.csproj", "{5C3DBCBC-9C30-45C5-BF49-62C4FA3D240F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{22BAF995-E4AB-4329-8122-B69A013F007E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22BAF995-E4AB-4329-8122-B69A013F007E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22BAF995-E4AB-4329-8122-B69A013F007E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C9171A-43CD-4F3D-82AD-7EC636E46B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C9171A-43CD-4F3D-82AD-7EC636E46B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C9171A-43CD-4F3D-82AD-7EC636E46B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C9171A-43CD-4F3D-82AD-7EC636E46B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1CC277-349B-43EE-97F3-053B232250A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1CC277-349B-43EE-97F3-053B232250A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1CC277-349B-43EE-97F3-053B232250A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1CC277-349B-43EE-97F3-053B232250A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3DBCBC-9C30-45C5-BF49-62C4FA3D240F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3DBCBC-9C30-45C5-BF49-62C4FA3D240F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3DBCBC-9C30-45C5-BF49-62C4FA3D240F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3DBCBC-9C30-45C5-BF49-62C4FA3D240F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
